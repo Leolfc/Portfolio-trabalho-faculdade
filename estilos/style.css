@@ -19,10 +19,11 @@
 .navegacao {
   display: none;
   flex-flow: row wrap;
-  gap: 15px;
+  gap: 10px;
   margin: 30px 40px;
   font-size: 1.3em;
   text-align: center;
+  width: 40%;
 }
 .navegacao a {
   flex: 1 1 auto;
@@ -30,8 +31,9 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border: 2px solid black;
   border-radius: 3px;
-  padding: 8px;
+  padding: 8px 0px;
   color: rgb(0, 0, 0);
+  border: none;
   
 }
 #icone{
