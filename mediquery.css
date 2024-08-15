@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    #icone{
+        display: none;
+    }
+    .navegacao{
+        display: flex;
+       
+    }
+}

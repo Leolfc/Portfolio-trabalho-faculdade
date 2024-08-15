@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediquery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<body onresize="mostrarMenu()"> 
+<header>
+    
+        <span id="icone" onclick="clickMenu()" class="material-symbols-outlined ">
+            menu
+            </span>
+  
+    <nav id="menu" class="navegacao">
+        <a href="https://github.com/Leolfc" target="_blank">Meu GitHub</a>
+        <a href= "https://www.linkedin.com/in/leonardo-feliciano-da-costa-3a760b200/" target="_blank">Linkedin</a>
+        <a href="#">Contato</a>
+        <a href="https://github.com/Leolfc?tab=repositories" target="_blank">Meus Repositórios</a>
+    </nav>
+</header>
+<main>
+<div class="container">
+    <h1 id="titulo__saudacao">Seja bem Vindo</h1>
+    <img src="img/imagemportfolioalura.jpg" alt="">
+    <h2 class="titulo__sobre">Sobre Min</h2>
+    <p>Olá me chamo<a class="link__paragrafo" href="https://www.linkedin.com/in/leonardo-feliciano-da-costa-3a760b200/" target="_blank"> Leonardo</a> tenho 26 anos sou do Paraná, apaixonado por programação,
+        atualmente estou cursando Analise e Desevolvimentos de Sistemas na Universidade <a class="link__paragrafo" href="https://www.uninter.com/" target="blank">Uninter</a> aqui da minha cidade,
+        alem da faculdade realizo cursos de progrmação por fora para adquirir cada vez mais conhecimento, a area da programação que 
+        escolhi seguir é a de Front-End, quando percebi o que Html,Css,Javacript e tambem frameworks podem fazer
+        neste momento percebi que essa área que queria seguir.Atualmente procuro um estágio ou uma vaga júnior para pode adquirir 
+        conhecimento e fazer networking.
+     </p>
+    </div>
+     <div class="form">
+         <h2 class="titulo__contato">Gostaria de entrar em contato?</h2>
+         
+            <table>
+                 <form action="">
+                    <label  for="">Digite seu nome:</label>
+                    <input required type="text" placeholder="Nome">
+                    <label for="mail">Digite seu email:</label>
+                    <input required placeholder="Digite seu email" type="email" name="" id="mail">
+                    <label for="num">Telefone:</label>
+                    <input required placeholder="Digite seu telefone" type="number" name="" id="num">
+                    <label for="tex">Digite sua mensagem</label>
+                    <textarea placeholder="Olá Leonardo..." name="" id="text" cols="40" rows="5"></textarea>
+                    <input class="button__enviar" type="submit" value="Enviar">
+              
+                 </form>
+             </table>
+         </div>
+        </div>
+         </main>
+    
+
+
+<footer class="rodape">
+    <p>Desenvolvido por <a  href="https://www.linkedin.com/in/leonardo-feliciano-da-costa-3a760b200/" target="_blank">Leonardo Feliciano</a></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
